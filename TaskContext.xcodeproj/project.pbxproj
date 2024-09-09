@@ -14,6 +14,7 @@
 		23CB032E2C8F343A0055FF7F /* TaskContextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CB032D2C8F343A0055FF7F /* TaskContextTests.swift */; };
 		23CB03382C8F343A0055FF7F /* TaskContextUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CB03372C8F343A0055FF7F /* TaskContextUITests.swift */; };
 		23CB033A2C8F343A0055FF7F /* TaskContextUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CB03392C8F343A0055FF7F /* TaskContextUITestsLaunchTests.swift */; };
+		23CB03472C8F34490055FF7F /* TaskContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CB03462C8F34490055FF7F /* TaskContext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		23CB03332C8F343A0055FF7F /* TaskContextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskContextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23CB03372C8F343A0055FF7F /* TaskContextUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskContextUITests.swift; sourceTree = "<group>"; };
 		23CB03392C8F343A0055FF7F /* TaskContextUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskContextUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		23CB03462C8F34490055FF7F /* TaskContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskContext.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				23CB031C2C8F34390055FF7F /* TaskContextApp.swift */,
 				23CB031E2C8F34390055FF7F /* ContentView.swift */,
+				23CB03462C8F34490055FF7F /* TaskContext.swift */,
 				23CB03202C8F343A0055FF7F /* Assets.xcassets */,
 				23CB03222C8F343A0055FF7F /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23CB031F2C8F34390055FF7F /* ContentView.swift in Sources */,
+				23CB03472C8F34490055FF7F /* TaskContext.swift in Sources */,
 				23CB031D2C8F34390055FF7F /* TaskContextApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
